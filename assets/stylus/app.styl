@@ -73,8 +73,9 @@ body {
 }
 
 nav.navbar.navbar-expand-sm.navbar-custom {
-    padding: 20px;
+    padding: 10px;
 }
+
 i.fa.fa-bars.fa-lg.py-1.text-burger {
     color: azullightbrand !important;
 }
@@ -96,18 +97,36 @@ i.fa.fa-bars.fa-lg.py-1.text-burger {
     color #fff
 
 #hero 
-    background-image: url(../img/bg-hero2.png)
+    // background-image: url(../img/bg-hero2.png)
     // background-image: url(../img/bg-code.jpg)
+    // background-image: url(../img/bg-heroperfil2.png)
+    background-image: url(../img/heroX2.png);
     background-repeat: no-repeat   ;
-    background-position: center, center;
-    background-size: cover;
-    height: 90vh;
+    // background-position: center, right;
+    background-position: center right;
+    // background-attachment: scroll;
+    background-size: fixed;
+    // height: 90vh;
+    position: relative;
+    animation-name: heroX;
+    animation-duration: 2s;
+    transition-delay: 7.15s;
 
 
 .hero-slider {
     position: relative;
     height: 100vh;
 }
+
+/*=========================
+ // Animacion Hero
+===========================*/
+@keyframes heroX
+    0%
+        opacity: 0;
+    100%
+        opacity: 1;
+
 
     /*=========================
     // escritura del Hero
@@ -138,6 +157,41 @@ i.fa.fa-bars.fa-lg.py-1.text-burger {
     display: inline;
 }
 
+ul.icon-social {
+    list-style: none;
+    padding-top: 10px;
+    // paddin-left: 17px !important;
+    padding-inline-start: 0px !important;
+}
+
+li.list-icon {
+    display: inline-flex;
+    padding-right: 1.4em;
+}
+
+a img {
+    height 30px;
+    // width: 20xp;
+}
+
+img.icon-git {
+    color: #fff !important;
+}
+
+.social img {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0)
+}
+.social img:hover {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -o-filter: grayscale(1)
+}
 
 // .media-hero
 //     background-image: url(../img/hero2.png)
@@ -176,14 +230,15 @@ p.paragraph-about
     color grey
 
 
-section#servicios
+#passion
     margin 50px 0
 
-#servicios
+#passion
     background-color #fff
     padding 50px 50px
-    
-h2.title-section-servicios
+
+h2.title-section-passion.text-uppercase.text-center
+    color: azulbrand;
     font-family: 'poppins', sans-serif;
     font-size: 2.5em
     font-weight: 700;
@@ -191,31 +246,9 @@ h2.title-section-servicios
 
 
 
-
 .title-section-servicios
     color: azulbrand
 
-// .about-img img {
-//     position: relative;
-//     webkit-transform: translate(50px, 50px);
-//     -ms-transform: translate(50px, 50px);
-//     -o-transform: translate(50px, 50px);
-//     transform: translate(50px, 50px);
-// }
-
-// .about-img::before {
-//     content: "";
-//     width: 81%;
-//     height: 100%;
-//     position: absolute;
-//     bottom: 0;
-//     right: 0;
-//     background: grey !important;
-//     webkit-transform: translate(50px, 0px);
-//     -ms-transform: translate(50px, 0px);
-//     -o-transform: translate(50px, 0px);
-//     transform: translate(50px, 0px);
-// }
 
 
 
@@ -234,12 +267,34 @@ h2.title-section-servicios
 
 
 
-
-
-@media (max-width: 768px)
+@media (max-width: 576px) {
     .title-hero {
-        font-size: 4rem !important;
+        font-size: 1.5rem !important;
         font-weight: 300;
         line-height: 1.1;
+        color: #ffffff;
     }
-    
+
+    .botones-hero {
+        display: none;
+    }
+
+    #hero {
+        background-image: url(../img/perfil-circle.png);
+        background-repeat: no-repeat;
+        background-position: 18.5em, right;
+        background-size: cover;
+        height: 100vw
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .title-hero {
+        font-size: 2.2rem !important;
+        font-weight: 300;
+        line-height: 1.1;
+        color: #ffffff;
+    }  
+}
