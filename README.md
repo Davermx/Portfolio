@@ -10,4 +10,4 @@ _Creacion de Portafolio Personal_
 * [Animate.css ](httpsdaneden.github.ioanimate.css) Libreria CSS
 * [WOW.css ](https://wowjs.uk/) Libreria CSS
 * [Font Awesome](httpsfontawesome.com) El framework de iconos vectoriales
-* [Sylus](http://stylus-lang.com/) Preprocesador CSS
+* [Stylus](http://stylus-lang.com/) Preprocesador CSS
