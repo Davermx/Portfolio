@@ -9,6 +9,8 @@
     ===========================*/
 
     azulbrand = #0777D9
+    Azulnice = #448AFF
+    azulnicedark = #3F51B5
     azullightbrand = #0597F2
     azuldeepbrand = #0A5DA6 
     indigobrand = #1E2940
@@ -29,7 +31,7 @@
 body {
     // background-color indigobrand;
     // background-color #20293c;
-    background-color #191d28;
+    background-color #191d28;  
     // background: rgb(38,38,38);
     // background: radial-gradient(circle, rgba(38,38,38,1) 0%, rgba(38,38,38,1) 100%);
     // background: rgb(71,76,96);
@@ -229,48 +231,33 @@ img.icon-git {
 
 
 
-.title-about 
-    color: azulbrand
-    font-family: 'Poppins', sans-serif;
-    font-size 2.5em
-    padding 80px 50px
+// .title-about 
+//     color: azulbrand
+//     font-family: 'Poppins', sans-serif;
+//     font-size 2.5em
+//     padding 80px 50px
 
 
 .title-section-about 
-    color: #fff;
+    // color: #fff;
+    color: azullightbrand
     font-weight: 700;
     // font-family: 'poppins, sans-serif';
     font-family: 'Poppins', sans-serif;
     padding-top 20px
+
+
+h4.subtitle-about {
+    color:  azullightbrand;
+}
 
 p.paragraph-about 
     // color grey
     color  #6c757d
 
 
-#passion
-    margin 50px 0
 
-#passion
-    background-color #fff
-    padding 50px 50px
-
-h2.title-section-passion.text-uppercase.text-center
-    color: azulbrand;
-    font-family: 'poppins', sans-serif;
-    font-size: 2.5em
-    font-weight: 700;
-
-
-
-
-.title-section-servicios
-    color: azulbrand
-
-
-
-// Letras 
-
+// title about
 .shadow-on-text {
     position: relative;
     bottom: 0;
@@ -296,13 +283,125 @@ h2.title-section-passion.text-uppercase.text-center
     z-index: 10;
 }
 
-.footer-lines {
-    position: relative;
-}
 
 .text-blue-50 {
     color:white ;
 }
+
+// Title Passion
+.shadow-on-passion {
+    position: relative;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 14vw;
+    line-height: 1;
+    color: rgba(255,255,255,1);
+    background: linear-gradient(rgba(75, 77, 100,0.25), rgba(75, 77, 100,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    z-index: 1;
+}
+
+.title-header {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: azullightbrand;
+}
+
+h2.section-title {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    position: relative;
+    z-index: 9;
+}
+
+.Description-title {
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 100%;
+    margin-top:12px;
+    position: relative;
+    z-index: 9;
+}
+
+.description-servicio {
+    font-size: 0.8em;
+}
+
+.title-servicio {
+    color: indigobrand;
+    // color: #448AFF;
+}
+
+
+.card-section {
+    background-color: indigobrand;    
+    padding: 30px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.card-section:hover {
+    transition: all 0.3s ease-out 0s;
+    // background: RGBA(63,81,181,0.90);
+    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+}
+
+
+.card-section:hover img {
+    transform: translateY(-10px)
+    transition: .3s;
+}
+
+.card-icon img {
+    display: flex;
+    // display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.icon-passion {
+    margin: auto;
+}
+
+img.icon-passion.desk  {
+    width: 70px;
+}
+// [class^="daver-"]:before,
+// [class*=" daver-"]:before {
+//   font-family: "davermx" !important;
+//   font-style: normal !important;
+//   color: azuldeepbrand !important;
+//   font-size: 3em;
+// }
+
+.shadow-card {
+    // webkit-box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15) !important;
+    // box-shadow: 0 0.5rem 1rem rgba(255,255, 255, 0.15);
+    // box-shadow: 0 0.5rem 1rem RGBA(5,151,242,1);
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: RGBA(5,151,242,1);
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -337,10 +436,9 @@ h2.title-section-passion.text-uppercase.text-center
         background-repeat: no-repeat;
         background-position: 18.5em, right;
         background-size: cover;
-        height: 100vw
+        height: 100vw;
     }
 }
-
 
 
 @media (max-width: 768px) {
@@ -349,5 +447,5 @@ h2.title-section-passion.text-uppercase.text-center
         font-weight: 300;
         line-height: 1.1;
         color: #ffffff;
-    }  
+    }
 }
