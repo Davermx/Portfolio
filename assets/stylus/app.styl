@@ -7,7 +7,7 @@
     /*=========================
     // Brandin Color portfolio
     ===========================*/
-
+    oscuro = #23232f
     azulbrand = #0777D9
     Azulnice = #448AFF
     azulnicedark = #3F51B5
@@ -32,6 +32,7 @@ body {
     // background-color indigobrand;
     // background-color #20293c;
     background-color #191d28;  
+    // background-color oscuro;  
     // background: rgb(38,38,38);
     // background: radial-gradient(circle, rgba(38,38,38,1) 0%, rgba(38,38,38,1) 100%);
     // background: rgb(71,76,96);
@@ -68,10 +69,11 @@ body {
 .navbar-custom .dropdown-item {
     color: #ffffff;
 }
+
 .navbar-custom .dropdown-item:hover,
 .navbar-custom .dropdown-item:focus {
     color: #333333;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,1);
 }
 
 nav.navbar.navbar-expand-sm.navbar-custom {
@@ -99,10 +101,6 @@ i.fa.fa-bars.fa-lg.py-1.text-burger {
     color #fff
 
 #hero 
-    // background-image: url(../img/bg-hero2.png)
-    // background-image: url(../img/bg-code.jpg)
-    // background-image: url(../img/bg-heroperfil2.png)
-    // background-image: url(../img/heroX2.png);
     background-image: url(../img/heronew.png);
     background-repeat: no-repeat   ;
     // background-position: center, right;
@@ -270,8 +268,6 @@ p.paragraph-about
     // color: rgba(200,200,200,.1);
     color: rgba(255,255,255,1);
     background: linear-gradient(rgba(75, 77, 100,0.25), rgba(75, 77, 100,0));
-    // background: linear-gradient(rgba(255, 255, 255,0.25), rgba(75, 77, 100,0));
-    // background: linear-gradient(rgba(149,175,192,0.25), rgba(75, 77, 100,0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
@@ -351,8 +347,17 @@ h2.section-title {
 .card-section:hover {
     transition: all 0.3s ease-out 0s;
     // background: RGBA(63,81,181,0.90);
-    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+    // background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+    background-image: -webkit-linear-gradient(135deg, #7121ff 0%, #21d4fd 100%);
 }
+
+
+// .box-26:hover {
+//     border: 1px solid #d91b77;
+//     -webkit-box-shadow: 0 10px 20px 0 rgba(217, 27, 119, .3);
+//     -moz-box-shadow: 0 10px 20px 0 rgba(217, 27, 119, .3);
+//     box-shadow: 0 10px 20px 0 rgba(217, 27, 119, .3);
+// }
 
 
 .card-section:hover img {
@@ -375,19 +380,6 @@ h2.section-title {
 img.icon-passion.desk  {
     width: 70px;
 }
-// [class^="daver-"]:before,
-// [class*=" daver-"]:before {
-//   font-family: "davermx" !important;
-//   font-style: normal !important;
-//   color: azuldeepbrand !important;
-//   font-size: 3em;
-// }
-
-.shadow-card {
-    // webkit-box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15) !important;
-    // box-shadow: 0 0.5rem 1rem rgba(255,255, 255, 0.15);
-    // box-shadow: 0 0.5rem 1rem RGBA(5,151,242,1);
-}
 
 .footer-line {
     width: 100%;
@@ -395,12 +387,71 @@ img.icon-passion.desk  {
     background-color: RGBA(5,151,242,1);
 }
 
+.title-portfolio {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: azullightbrand;
+}
+
+.no-p {
+    padding: 0px;
+}
+
+.category {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.overlay:hover .category {
+    opacity: 1;
+    color: #FFFFFF;
+    font-weight: 700;
+    // background-color: azulnicedark;
+    background-color:  rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.7);
+    // background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+    text-align: center;
+    padding-top: 20%;
+    min-height: 100%;
+    transition: all 0.1s ease 0s;
+}
 
 
 
 
+// .filtr-item  {
+//     text-align: center;
+//     padding: 20px 0px 20px 0px;
+//     -webkit-transition: all 400ms linear 0s;
+//     -o-transition: all 400ms linear 0s;
+//     transition: all 400ms linear 0s;
+// }
+
+// .filtr-item:hover {
+//     -webkit-box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11);
+//     box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11);
+// }
 
 
+a.link-card {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title-card {
+    color: #fff;
+}
+
+img.img-card {
+//     height 267px;
+    max-width: 100%;
+}
 
 
 
