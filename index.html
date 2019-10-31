@@ -104,7 +104,7 @@
 <section id="about">
     <div class="container-fluid">
         <div id="about" class="section padding-top-bottom z-bigger mt-5 mb-3">
-            <div class="shadow-on-text wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s" >Sobre Mi</div>
+            <div class="shadow-on-text wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Sobre Mi</div>
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-4 offset-md-1 about-img mb-5 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="1s">        
@@ -137,12 +137,15 @@
 </section>
 <!--======= /About =======-->
 <!--======= Shot =======-->
-<section>
+<section id="shot" class="overlay-shot">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-12">
-                <h2 class="title-shot">Te gustaria que trabajemos juntos ?</h2>
-                <p class="description-shot">Actualmente estoy aceptando nuevos proyectos y me encantaría saber de los suyos. Tómese unos minutos para contarme al respecto.</p>
+                <h2 class="title-shot text-primary">Estoy disponible para crear tus proyectos</h2>
+                <p class="description-shot">Actualmente estoy aceptando nuevos proyectos y me encantaría saber de los suyos.<br> Tomate un minuto y cuentame que tienes en mente.</p>
+                <div class="boton-shot text-center">
+                    <a class="btn btn-outline-primary btn-lg wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" href="https://api.whatsapp.com/send?phone=529988440667&amp;text=Hola!%20podriamos%20agendar%20una%20cita%20y%20conversar%20sobre%20un%20proyecto.%20" target="_blank" role="button">Enviame un Whats...</a>
+                </div>
             </div>
         </div>
     </div>
@@ -176,6 +179,7 @@
             <div class="col-12 col-md-4 text-align-center">
                 <div class="card-section shadow-card">
                     <div class="card-icon">
+                        <!-- <img class="icon-passion" src="assets/img/responsive.svg" alt=""> -->
                         <img class="icon-passion" src="assets/img/responsive.svg" alt="">
                         <h5 class="title-servicio text-center">Diseño Web</h5>
                         <p class="description-servicio text-justify text-white">Creamos y Diseñamos paginas web responsive originales adaptables a cualquier dispositivo, contamos con paquetes que se ajusta a sus necesidades que van desde emprendedor hasta tienda en linea.</p>
@@ -328,7 +332,7 @@
         <div class="row">
             <div class="col-12 col-md-12">
                 <div class="title-portfolio">
-                    <h2 class="section-title">Works</h2>
+                    <h2 class="section-title">Proyectos Recientes</h2>
                     <div class="title-line"></div>
                 </div>
             </div>
@@ -474,19 +478,47 @@
 <!--======= /customers =======-->
 <!--======= Footer =======-->
 <section id="footer">
+    <div class="container-fluid">
+        <div id="section-title" class="section padding-top-bottom over-hide z-bigger mt-5 mb-3">
+            <div class="shadow-on-passion wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">Contactame</div>
+        </div>
+    </div>
     <div class="footer-top">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-12">
-                    <br>
-                    <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat error quas magni earum minus exercitationem maxime. Nobis rem alias recusandae animi ab nesciunt eum in, provident magni sint expedita saepe! Lorem ipsum dolor sit amet, tempore voluptatibus porro voluptas iste sint?</p>
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="footer-line2"></div>
                 </div>
-                <!-- <div class="col-12">
-                    <div class="footer-line"></div>
-                </div> -->
+                <div class="col-12 col-md-4">
+                    <ul class="icon-footer">
+                        <li class="li-icons-footer">
+                            <i class="fas fa-phone-volume fa-lg"></i>
+                                <h5 class="title-icon-footer">¡ Regalame una llamada !</h5>
+                                <p class="subtitle-icon-footer">+52 (998) 844 0667 <br> +52 (998) 114 6591</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul class="icon-footer">
+                        <li class="li-icons-footer">
+                            <i class="fas fa-envelope fa-lg"></i>
+                                <h5 class="title-icon-footer">¡ Dejame un Mensaje !</h5>
+                                <p class="subtitle-icon-footer">daguilera@protonmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul class="icon-footer">
+                        <li class="li-icons-footer">
+                            <i class="fab fa-skype fa-lg"></i>
+                                <h5 class="title-icon-footer">¡ Di Hola !</h5>
+                                <p class="subtitle-icon-footer">Davermx</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-            <div class="footer-bg"></div>
+        <div class="footer-bg"></div>
     </div>
 </section>
 <script src="assets/js/jquery3.2.1.min.js"></script>
