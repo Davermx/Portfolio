@@ -21,10 +21,14 @@
     grey = #95afc0
     greywizard = #535c68
     greyazul = #eef0fc
+    dark1 = #151f2d 
+    dark2 = #192538 
+    dark3 = #121b27 
     
 
 body {
-    background-color #191d28;
+    // background-color #191d28;
+    background-color: darkdeepbrand; 
 }
 
 // navbar style
@@ -115,6 +119,20 @@ figure {
     // color azulbrand
     color #fff
 
+
+.title-works { 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2.5em; 
+    color: #ffffff; 
+    font-weight: 700; 
+    margin-top: 50px; 
+} 
+
+.description-works { 
+    font-size: 19px; 
+} 
+
+
 #hero 
     background-image: url(../img/heronew.png);
     background-repeat: no-repeat   ;
@@ -132,6 +150,20 @@ figure {
     height: 100vh;
 }
 
+.logo { 
+    margin-right: auto; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+} 
+
+.wrapper { 
+    background-image: url(../img/suite.svg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: scroll; 
+    position: relative; 
+    min-height: 100vh; 
+    }  
 
 /*=========== submenu =============*/
 li {
@@ -255,10 +287,7 @@ img.icon-git {
 #about {
     background-image: url(../img/bg-vera-left.png);
     background-repeat: no-repeat;
-    // background-position: 10%, 100%;
     background-position: center;
-    // background-size: fixed;
-    // background-size: contain;
 }
 
 
@@ -424,7 +453,43 @@ img.icon-passion.desk  {
     height: auto;
 }
 
+.section-modulos { 
+    background-color: #fff; 
+    background-image: url(../img/04b.png) 
+    background-repeat: no-repeat; 
+    // background-color: #edf4ff; 
+    // background-color: #c5cae9; 
+} 
 
+.title-modulos { 
+    display: inline-block; 
+    font-size: 40px; 
+    font-weight: 600; 
+    line-height: 100%; 
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    // position: relative; 
+} 
+ 
+.wave-shape { 
+    position: absolute; 
+    width: 100%; 
+    height: auto; 
+    left: 0; 
+    bottom: 100%; 
+    // top: 100%; 
+} 
+ 
+ 
+.title-modulos-gise { 
+    display: inline-block; 
+    font-size: 40px; 
+    font-weight: 700; 
+    line-height: 100%; 
+    padding-top: 50px; 
+    padding-bottom: 30px; 
+} 
+ 
 
 .overlay:hover .category {
     opacity: 1;
@@ -471,8 +536,18 @@ img.img-card {
     color: grey;
 }
 
+.title-gise { 
+    text-align: center; 
+    font-size: 1.5em; 
+    color: oscuro; 
+}
+
 .description-invoicer {
     color: #fff;
+}
+
+.description-modulos { 
+    color: oscuro; 
 }
 
 a.link-emprendimiento {
@@ -590,7 +665,6 @@ section#shot {
 
 .title-shot {
     vertical-align: middle;
-    // color: text-primary;
     margin-top: 150px;
     text-align: center;
 }
@@ -733,6 +807,23 @@ p.Designed {
         font-size: 1.5em;
     }
 
+    .wrapper { 
+        background-image: url(../img/mini-suite.svg); 
+        background-repeat: no-repeat; 
+        background-position: center center; 
+        background-size: scroll; 
+        position: relative; 
+        min-height: 100vh; 
+    } 
+ 
+    h2.section-title { 
+        font-size: 24px; 
+    } 
+ 
+    p.Description-title { 
+        font-size: 20px; 
+    } 
+
 }
 
 
@@ -743,4 +834,5 @@ p.Designed {
         line-height: 1.1;
         color: #ffffff;
     }
+    
 }
