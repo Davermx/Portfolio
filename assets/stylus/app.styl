@@ -40,7 +40,7 @@ body {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: azullightbrand;
-    }
+}
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
@@ -110,7 +110,6 @@ figure {
     font-size: 6rem;
     font-weight: 600;
 
-
 .title-name 
     // color azullightbrand
     color #fff
@@ -118,7 +117,6 @@ figure {
 .title-profesion
     // color azulbrand
     color #fff
-
 
 .title-works { 
     font-family: 'Poppins', sans-serif; 
@@ -132,18 +130,13 @@ figure {
     font-size: 19px; 
 } 
 
-
-#hero 
+#hero {
     background-image: url(../img/heronew.png);
     background-repeat: no-repeat   ;
     background-position: center right;
     background-size: fixed;
-    // height: 90vh;
     position: relative;
-    // animation-name: heroX;
-    // animation-duration: 2s;
-    // transition-delay: 7.15s;
-
+}
 
 .hero-slider {
     position: relative;
@@ -167,34 +160,34 @@ figure {
 
 /*=========== submenu =============*/
 li {
- display: block;
- transition-duration: 0.5s;
+    display: block;
+    transition-duration: 0.5s;
 }
 
 li:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 ul li ul {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
 }
 
 ul li:hover > ul,
 ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
 
 ul li ul li {
-  clear: both;
-  width: 100%;
+    clear: both;
+    width: 100%;
 }
 /*=========== /submenu =============*/
 
@@ -261,17 +254,18 @@ img.icon-git {
     -webkit-filter: grayscale(0);
     -moz-filter: grayscale(0);
     -ms-filter: grayscale(0);
-    -o-filter: grayscale(0)
+    -o-filter: grayscale(0);
 }
+
 .social img:hover {
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
     -ms-filter: grayscale(1);
-    -o-filter: grayscale(1)
+    -o-filter: grayscale(1);
 }
 
-.btn-hero{
+.btn-hero {
     border-color: azulbrand !important;
     background: azulbrand !important;
     color: #fff;
@@ -283,13 +277,11 @@ img.icon-git {
     color: azulbrand !important;
 
 
-
 #about {
     background-image: url(../img/bg-vera-left.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 h6.fifi {
     font-family: 'poppins', sans-serif;
@@ -297,12 +289,12 @@ h6.fifi {
     color: #fff;
 }
 
-.title-section-about 
+.title-section-about {
     color: azullightbrand
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     padding-top 20px
-
+}
 
 h4.subtitle-about {
     color:  azullightbrand;
@@ -311,7 +303,6 @@ h4.subtitle-about {
 p.paragraph-about {
     color  #6c757d
 }
-
 
 // title about
 .shadow-on-text {
@@ -331,11 +322,9 @@ p.paragraph-about {
     z-index: 1;
 }
 
-
 .z-bigger {
     z-index: 10;
 }
-
 
 .text-blue-50 {
     color:white ;
@@ -392,7 +381,6 @@ h2.section-title {
     color: indigobrand;
 }
 
-
 .card-section {
     background-color: indigobrand;    
     padding: 30px;
@@ -402,7 +390,6 @@ h2.section-title {
 
 .card-section:hover {
     transition: all 0.3s ease-out 0s;
-    // background: RGBA(63,81,181,0.90);
     background-image: -webkit-linear-gradient(135deg, #7121ff 0%, #21d4fd 100%);
 }
 
@@ -454,12 +441,52 @@ img.icon-passion.desk  {
 }
 
 .section-modulos { 
-    background-color: #fff; 
-    background-image: url(../img/04b.png) 
+    background-color: #F7F7FD; 
+    background-image: url(../img/top.png);
     background-repeat: no-repeat; 
-    // background-color: #edf4ff; 
-    // background-color: #c5cae9; 
+    background-size: contain;
+    z-index: 2;
 } 
+
+.section-auditanet {
+    background-color: #F7F7FD;
+    background-image: url(../img/bg-circuit.svg);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position-x: 95%;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.section-validanet {
+    background-color: #F7F7FD;
+    background-image: url(../img/bg-esfera.svg);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position-x: 10%; 
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.section-guardata {
+    background-color: #F7F7FD;
+    background-image: url(../img/bg-datacloud.svg);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position-x: 95%;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.section-cxc {
+    background-color: #F7F7FD;
+    background-image: url(../img/bg-cxc.svg);
+    background-repeat: no-repeat; 
+    background-size: 30%;
+    background-position-x: 3%; 
+    padding-top: auto;
+    padding-bottom: auto;
+}
 
 .title-modulos { 
     display: inline-block; 
@@ -467,25 +494,8 @@ img.icon-passion.desk  {
     font-weight: 600; 
     line-height: 100%; 
     padding-top: 30px; 
-    padding-bottom: 30px; 
-    // position: relative; 
+    padding-bottom: 30px;
 } 
-
-.bgs-left {
-    position: absolute;
-    left: 0%;
-    top: 50%;
-    width: 80%;
-}
-
-// .wave-shape { 
-//     position: absolute; 
-//     width: 100%; 
-//     height: auto; 
-//     left: 0; 
-//     bottom: 100%; 
-//     top: 100%; 
-// } 
 
 .title-modulos-gise { 
     display: inline-block; 
@@ -495,7 +505,6 @@ img.icon-passion.desk  {
     padding-top: 50px; 
     padding-bottom: 30px; 
 } 
- 
 
 .overlay:hover .category {
     opacity: 1;
@@ -508,7 +517,6 @@ img.icon-passion.desk  {
     transition: all 0.1s ease 0s;
 }
 
-
 a.link-card {
     text-decoration: none;
     color: #fff;
@@ -519,10 +527,8 @@ a.link-card {
 }
 
 img.img-card {
-//     height 267px;
     max-width: 100%;
 }
-
 
 .title-pro-personal {
     margin-top: 80px;
@@ -535,7 +541,6 @@ img.img-card {
     background-color: RGBA(5,151,242,1);
 }
 
-
 .title-invoicer {
     text-align: center;
     font-size: 1.5em;
@@ -543,6 +548,7 @@ img.img-card {
 }
 
 .title-gise { 
+    font-family: 'Poppins', sans-serif; 
     text-align: center; 
     font-size: 1.5em; 
     color: oscuro; 
@@ -553,7 +559,8 @@ img.img-card {
 }
 
 .description-modulos { 
-    color: oscuro; 
+    font-family: 'Poppins', sans-serif; 
+    color: #677294;
 }
 
 a.link-emprendimiento {
@@ -588,7 +595,6 @@ li.icon-social-emprender {
     margin-right: auto;
 }
 
-
 .title-partners {
     font-family: 'poppins', sans-serif;
     font-size: 2.5em;
@@ -604,7 +610,6 @@ li.icon-social-emprender {
     margin: 0 auto;
 }
 
-
 .partners-img {
     height: 200px;
     width: 200px;
@@ -613,17 +618,15 @@ li.icon-social-emprender {
 .title-section-work {
     margin-top: 80px;
     color: #0597f2;
-
 }
 
 #customers {
- margin: 120 auto;
+    margin: 120 auto;
 }
 
 section#customers {
     margin-bottom: 60px;
     padding-bottom: 60px;
-
 }
 
 section#customers {
@@ -638,7 +641,6 @@ section#customers {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .filter-customer img {
     filter: grayscale(1);
@@ -671,7 +673,6 @@ section#shot {
     margin: 100px auto;
 }
 
-
 .title-shot {
     vertical-align: middle;
     margin-top: 150px;
@@ -690,7 +691,6 @@ ul.icon-footer {
     padding-left: 0px;
 }
 
-
 li.li-icons-footer {
     text-align: center;
     position: relative;
@@ -707,12 +707,10 @@ li.li-icons-footer i {
     font-size: 34px;
     line-height: 59px;
     margin: 0 auto;
-    // margin-bottom: 20px;
     display: block;
     border: 1px solid #cccccc;
     border-radius: 50%;
 }
-
 
 h6.title-icon-footer {
     color: azulnicedark;
@@ -722,19 +720,31 @@ h6.title-icon-footer {
     color: grey;
 }
 
+/*****  Cards productos ******/
+.section-cards {
+    background-color: #DDE8FE;
+    padding: 100px 0;
+}
+
+.card {
+    border-radius: 20px;
+    width:300px;
+}
+
+
+/***** / cards productos ******/
+
+
+
+
+
+
 
 /*clase cuadros, para cada slide*/
 .cuadros{   
     // border-radius: .16667em;
     text-align: center;
     height: 200px;
-    // line-height: 50px;
-    // -webkit-box-shadow: inset 0 0 0 2px hsla(0,0%,100%,.5);
-    // box-shadow: inset 0 0 0 2px hsla(0,0%,100%,.5);
-    // color: #fff;
-    // background: transparent;
-    // font-size: 1em;
-    // font-weight: 900;
 }
 
 .footer-line2 {
@@ -745,7 +755,6 @@ h6.title-icon-footer {
     background: -webkit-linear-gradient(90deg,#00eaff 0%, #9708cc 85%);
     background: -moz-linear-gradient(90deg,#00eaff 0%, #9708cc 85%);
 }
-
 
 .footer-top {
     padding: 80px 0px 270px;
@@ -774,7 +783,6 @@ ul.footer-icons2 {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 li.footer-li-icons {
     list-style: none;
@@ -822,7 +830,7 @@ p.Designed {
         background-size: scroll; 
         position: relative; 
         min-height: 100vh; 
-    } 
+    }
 
     h2.section-title { 
         font-size: 24px; 
@@ -832,6 +840,21 @@ p.Designed {
         font-size: 20px; 
     } 
 
+    .section-auditanet {
+        background-image: none;
+    }
+    
+    .section-validanet {
+        background-image: none;
+    }
+    
+    .section-guardata {
+        background-image: none;
+    }
+    
+    .section-cxc {
+        background-image: none;
+    }
 }
 
 
