@@ -139,6 +139,10 @@ figure {
     background-size: fixed;
     position: relative;
 }
+.unlink {
+    pointer-events: none;
+    cursor: default;
+}
 
 .hero-slider {
     position: relative;
@@ -238,9 +242,27 @@ ul.icon-social {
     padding: 10px 0 0 0;
 }
 
+
+ul.tools {
+    padding-top: 10px;
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    row-gap: 20px;
+}
+
 li.list-icon {
     display: inline-flex;
     padding-right: 1.4em;
+    justify-content: center;
+    align-content: center;
+}
+
+ul.tools li img {
+    width: 45px;
+    height: 45px;
 }
 
 a img {
@@ -260,6 +282,22 @@ img.icon-git {
 }
 
 .social img:hover {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -o-filter: grayscale(1);
+}
+
+.tools img {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+}
+
+.tools img:hover {
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
@@ -315,6 +353,12 @@ h4.subtitle-about {
 
 p.paragraph-about {
     color  #6c757d
+}
+
+
+p.paragraph-aboutme {
+    line-height: 2em;
+    font-size: 1.1em
 }
 
 // title about
@@ -448,7 +492,7 @@ header .overlay {
     background-color: black;
     opacity: 0.5;
     z-index: 1;
-    padding-top: 90px;
+    // padding-top: 90px;
 }
 
 header .vid {
@@ -596,10 +640,6 @@ li.icon-social-emprender {
         color: #bfcde0;
         }
 }
-
-// li.icon-social-emprendimiento i:hover {
-//     color: #fff Important;
-// }
 
 
 #partners {
@@ -764,9 +804,10 @@ section#customers {
 
 .title-shot {
     vertical-align: middle;
-    margin-top: 150px;
+    // margin-top: 150px;
     text-align: center;
 }
+
 
 .description-shot {
     font-family: 'Poppins', sans-serif;
@@ -953,6 +994,13 @@ p.Designed {
     color: azullightbrand;
 }
 
+p.saludo {
+    font-family: 'Sofia', cursive;
+    color: white;
+    font-size: 1.6em;
+}
+
+
 @media (max-width: 576px) {
     .title-hero {
         font-size: 1.5rem !important;
@@ -965,8 +1013,12 @@ p.Designed {
         display: none;
     }
 
-    .icon-social {
-    display: none;
+    img.icon-social {
+        height:28px;
+    }
+
+    p.saludo {
+        font-size: 1.2em;
     }
     
     #hero {
@@ -1013,6 +1065,11 @@ p.Designed {
     .section-cxc {
         background-image: none;
     }
+    ul.tools li img {
+        width: 25px;
+        height: 25px;
+    }
+
 }
 
 
