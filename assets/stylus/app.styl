@@ -792,16 +792,6 @@ section#customers {
     padding-bottom: 30px; 
 } 
 
-// section#shot {
-//     background-image: url(../img/bgcode.jpg);
-//     background-attachment: fixed;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     height: 450px;
-//     margin: 100px auto;
-// }
-
 .title-shot {
     vertical-align: middle;
     // margin-top: 150px;
@@ -818,24 +808,29 @@ section#customers {
 ul.icon-footer {
     list-style: none;
     padding-top: 30px;
-    padding-left: 0px;
+    // padding-left: 0px;
+    // display: flex;
+    display: inline-flex;
+    padding-right: 1.4em;
+    justify-content: center;
+    align-content: center;
 }
 
 li.li-icons-footer {
-    text-align: center;
-    position: relative;
+    // text-align: center;
+    // position: relative;
     padding: 20px 50px;
     background: transparent;
 }
 
 li.li-icons-footer i {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     color: #fff;
     background: azulnicedark;
     text-align: center;
-    font-size: 34px;
-    line-height: 59px;
+    font-size: 27px;
+    line-height: 47px;
     margin: 0 auto;
     display: block;
     border: 1px solid #cccccc;
@@ -1000,6 +995,12 @@ p.saludo {
     font-size: 1.6em;
 }
 
+a.btn-social {
+    // border: 2px solid red;
+}
+
+
+
 
 @media (max-width: 576px) {
     .title-hero {
@@ -1009,8 +1010,8 @@ p.saludo {
         color: #ffffff;
     }
 
-    .botones-hero {
-        display: none;
+    li.li-icons-footer {
+        padding: 20px 5px; 
     }
 
     img.icon-social {
