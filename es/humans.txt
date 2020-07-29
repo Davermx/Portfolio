@@ -1,0 +1,54 @@
+# humanstxt.org/
+
+                                                                                                                                                           
+            .PIU21212UqQ:                                                             iQK2U1U1UUIP.           
+            UIJjsjJjj5dr                                                               7b5jususuj51           
+          .ZPU21U1UUqDr                                                                 7ZXUU1U12UPE.         
+         :DK22u2122KDi                                                                   rDKUU1U1U2qD.        
+        :DK12uUuUUKD:       :BBBBBBBBB. bEdPPPPS17:         iuEQBBBBBQBBBBBBBBBBBB        iDKUUuU12UPZ:       
+       rDX1U1U12UPZ.        .BBBBBBBQB. qEXKSKXKqddDPs.  QBBBBBBBBBBBBBBBBBBQBQBBB         :DKUU1112UqZ:      
+      rZSUUu1u22qZ.         .BBMQgQMQB. SKI25UI1IUI2qPDS: KBBQQMQRQRQQQMQgQgQgRMBQ          :ZKUUuUuUUqZi     
+     vZX1U1Uu2UqZ.          .BQRgMgMRB  EgPdPPKKU2121I2qPv  BBQBQBBBBBBBBRgMgMgRBB           .Eq2Uu2uUUXZ7    
+    sES1Uu2u22Pd            .BBgMgMgQB. vYvvvv5PZXIUU1UUIXP  BBBMUv7v7vr2BQgMgRgBB            .EP2U1Uu2UXZv   
+   Ud512u1uU2PP             .BQMgMgMQB.         .XqIu2uU12KP s7         .BRMgRgMQB             .dP221U12USZY  
+  Sd51Uu11U1qK              .QBgRgMgBB.           SS2u1uU15E:           :BQgMgRgBB               bP1UuUuUUXd1 
+.IZXUUu1u11Sj               .BQRgRgMQB.           idU211uUUZ:           :BQMgRgRBB                U512uU1UUXEY
+.5ZI2111U1252               .BBgRgRgQB.           rPIuU1U12P:           :BQgRgMMBB                52U1UuUu2IDY
+  Kd2UuUuUu2qP              .BQMgMgRRB.           :Z2U1U11Uq2           :BRMgMgRBB               ZSIuU1Uu2IE2 
+   XEIU1UuUuIPd             .BQgMgMgQB          X7 PKU2uUuUUP5.         :BQgMgMgBB              ZqI12uU12IZU  
+    SE2Uu1uU1Iqd            .BQRgMgMMB1vYJssjPQBQB  qqU2uUuU2qbEIuvsY17 :BRMgMgMBB             DK51UuU122EU   
+     SdI21U1U15qd           .BQgMgMgRRBBBQBBBBBBBBB  vEXS22U2UIIKKPqbDq :BQgMgRgBQ            DKIuU1U1IIZ2    
+      SEIU12111IqZ          .BQQgRgMMQRQRQRQRQRQRQBBS.:KZdX5UI1IUIUIIPj :BQQgMMQBB           DKI11u1122E2     
+       5d2U12uUuIKE         .QBBBBBQBBBBBQBQBQBBBBBBBd  .LPEZbbKKSqXqd5 iBBBBBBBBB          ZKI1UuU12IZ1      
+        5d221U1U15qE        .BBBBBBBBBBBBBBBBBQgSv.         :7YIXPXqKEU iBQBBBBBBB         DK5u2uUu2IE1       
+         5EI21Uu215KE                                                                    .DKI1UuUuUIEu        
+          Id22u21U15qD                                                                  .gKI121U122Zj         
+           r5J1JuJ1JUKg.                                                               .MXUJuJusjjSi                                                 
+
+
+
+# Front-End Developer
+  David Aguilera
+	Engineer | IT Consultant | Electronic Billing Expert | Designer | Entrepreneur |	
+	Contact: info [at] daguilera.com.mx
+	Twitter personal: @davermx
+	Intagram: @iamdaguilera
+	From: Cancun, Mex
+
+# THANKS
+	Fontawesome  	  http://fontawesome.io/
+	CloudFlare        https://www.cloudflare.com/
+	ViewerJS	  https://viewerjs.org/
+	Google Analytics  https://marketingplatform.google.com/about/
+
+
+# TECHNOLOGY 
+  * Frontend
+        HTML5, CSS3, Bootstrap, FontAwesome, Javascript, Google Font Api, stylus
+  * Backend
+        Nginx, Cloudflare, php,
+  * Tools/Platforms
+        illustrator, Akky, photoshop, compress.io, Github
+  * IDEs
+        Visual Studio Code, Gitkraken
+                                            
