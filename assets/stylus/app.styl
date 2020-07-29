@@ -303,13 +303,11 @@ ul.tools {
     row-gap: 20px;
 }
 
-.icon-contact {
-    display: grid;
-    grid-template-columns: 50px  50px 50px 50px 50px;
-    // grid-gap: 5px;
-    justify-content: center;
-    // justify-items: center;
-}
+// .icon-contact {
+//     display: grid;
+//     grid-template-columns: 50px  50px 50px 50px 50px;
+//     justify-content: center;
+// }
 
 li.list-icon {
     display: inline-flex;
@@ -873,7 +871,9 @@ section#customers {
 
 .title-shot {
     vertical-align: middle;
+    font-family: 'Blinker', sans-serif;
     // margin-top: 150px;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -910,7 +910,7 @@ li.li-icons-footer i {
     text-align: center;
     font-size: 27px;
     line-height: 47px;
-    margin: 0 auto;
+    margin: 20px;
     display: block;
     border: 1px solid #cccccc;
     border-radius: 50%;
@@ -1069,9 +1069,10 @@ p.Designed {
 }
 
 p.saludo {
-    font-family: 'Sofia', cursive;
+    font-family: 'Blinker', sans-serif;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.4em;
+    font-weight: 300;
 }
 
 
@@ -1121,7 +1122,14 @@ p.saludo {
     }
 
     li.li-icons-footer {
-        padding: 20px 5px; 
+        padding: 10px 5px; 
+    }
+
+    li.li-icons-footer i {
+        margin: 5px;
+        width: 45px;
+        height 45px;
+        font-size: 20px;
     }
 
     img.icon-social {
@@ -1214,6 +1222,14 @@ p.saludo {
     .navbar-collapse {
         height: 100vh;
     }
+
+    #hero {
+        background-image: url(../img/perfil-circle.png);
+        background-repeat: no-repeat;
+        background-position: 23.5em, right;
+        background-size: cover;
+        height: 100vw;
+    }
     
     .wrapper { 
         background-image: url(../img/mini-suite.svg); 
@@ -1271,3 +1287,34 @@ p.saludo {
         height: 100vh;
     }
 }
+
+@media (max-width: 992px) {
+    p.saludo {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 1024px) {
+    p.saludo {
+        font-size: 1.2em;
+    }
+
+    a.nav-link {
+        font-size: 1rem;
+    }
+
+    .navbar-custom .navbar-nav .nav-link {
+        margin: 0 .5rem;
+        }
+    
+    a.navbar-brand {
+        width: 80px;
+    }
+
+}
+
+
+
+
+
+
