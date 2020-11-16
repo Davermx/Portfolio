@@ -30,7 +30,7 @@
 # Front-End Developer
   David Aguilera
 	Engineer | IT Consultant | Electronic Billing Expert | Designer | Entrepreneur |	
-	Contact: info [at] daguilera.com.mx
+	Contact: daguilera [at] protonmail.com
 	Twitter personal: @davermx
 	Intagram: @iamdaguilera
 	From: Cancun, Mex
@@ -46,9 +46,11 @@
   * Frontend
         HTML5, CSS3, Bootstrap, FontAwesome, Javascript, Google Font Api, stylus
   * Backend
-        Nginx, Cloudflare, php,
-  * Tools/Platforms
-        illustrator, Akky, photoshop, compress.io, Github
+        Nginx, Cloudflare, php.
+  * Platforms
+        Google Domains, Github, Akky.
+  * Tools
+        illustrator, photoshop, compress.io.
   * IDEs
-        Visual Studio Code, Gitkraken
+        Visual Studio Code, Gitkraken.
                                             
