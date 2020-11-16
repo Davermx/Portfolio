@@ -1,3 +1,6 @@
 # Archivos que seran igonorados
+.vscode
 prepros-6.config
 assets/stylus
+es/enviado.html
+enviar.php
